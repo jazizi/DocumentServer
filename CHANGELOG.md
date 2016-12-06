@@ -1,5 +1,29 @@
 # Change log
 
+## 4.3.0
+### New Features
+#### Document Editor
+* Undo-Redo in Fast co-edit
+
+### Fixes
+#### Document Editor
+* Fixed an issue with drag-n-drop a table inside a footnote (bug #33548)
+* Fixed an issue with crop of shape group (bug #33110)
+
+#### Spreadsheet Editor
+* Fixed an issue with broken workbook after list copy (bug #33588) 
+* Fixed an issue with formula recalculation by F4 hotkey (bug #32901)
+* Fixed an issue with SUMIFS formula (bug #33602)
+* Fixed an issue with inserting image size (bug #33604)
+* Fixed an issue with zero values sparklines (bug #33612)
+* Fixed an issue with changing number format while changing regional format (bug #31395)
+* Fixed an issue with replacing formula delimiters (bug #33608)
+* Fixed an issue with cell size while drag'n'drop (bug #33607)
+* Fixed an issue with cursor size in @2x (bug #33606)
+
+#### x2t
+* Improve compatibility with `ods` format
+
 ## 4.2.1
 ### Fixes
 #### Document Editor
